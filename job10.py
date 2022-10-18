@@ -7,7 +7,9 @@ path_txt = r"C:\Users\PX229\Desktop\laplateforme\starter-python\job10-text\readm
 
 with open(path_txt, 'w') as file:
     file.write(text)
+
+    
     
 #read the text file that you have just opend and print it to terminal
-
-print(file.read())
+with open(path_txt, 'r') as file:
+    print(file.read())
